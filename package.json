@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-ejs-exercise-han-minji",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/HsRIwkMd)\r # NodeJS - EJS Exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npx tsc -w\" \"nodemon dist/server.js\"",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornerstone-CICCC/nodejs-ejs-exercise-Han-minJI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cornerstone-CICCC/nodejs-ejs-exercise-Han-minJI/issues"
+  },
+  "homepage": "https://github.com/Cornerstone-CICCC/nodejs-ejs-exercise-Han-minJI#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.0",
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
